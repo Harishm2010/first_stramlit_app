@@ -63,4 +63,3 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add ?')
 if stremlit.button('Add a Fruit to the List'):
    my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
    streamlit.text(back_from_function)
-
